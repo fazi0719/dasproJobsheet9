@@ -11,12 +11,12 @@ public static void main(String[] args) {
             nilaiAkhir [i] = sc.nextInt();
         }
 
-            for (int o =0; o < nilaiAkhir.length; o++){
-                if (nilaiAkhir[o] > 70){
-                    System.out.println("Nilai akhri ke-"+o+" lulus! ");
+            for (int i =0; i < nilaiAkhir.length; i++){
+                if (nilaiAkhir[i] > 70){
+                    System.out.println("Nilai akhri ke-"+i+" lulus! ");
                 }
                 else{
-                    System.out.println("Nilai akhri ke-"+o+" Tidak lulus! ");
+                    System.out.println("Nilai akhri ke-"+i+" Tidak lulus! ");
             }
             }
         }
