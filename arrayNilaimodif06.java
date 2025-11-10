@@ -11,8 +11,8 @@ public static void main(String[] args) {
             nilaiAkhir [i] = sc.nextInt();
         }
 
-            for (int o =0; o < 10; o++){
-                System.out.println("Nilai akhri ke-"+o+" adalah "+ nilaiAkhir[o]);
+            for (int i =0; i < 10; i++){
+                System.out.println("Nilai akhri ke-"+i+" adalah "+ nilaiAkhir[i]);
             }
         }
     }
