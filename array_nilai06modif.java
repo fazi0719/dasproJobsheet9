@@ -12,9 +12,9 @@ public class array_nilai06modif {
             nilaiAkhir [i] = sc.nextInt();
         }
 
-            for (int o =0; o < nilaiAkhir.length; o++){
-                if (nilaiAkhir[o] > 70){
-                    System.out.println("Mahasiswa ke-"+o+" lulus! ");
+            for (int i =0; i < nilaiAkhir.length; i++){
+                if (nilaiAkhir[i] > 70){
+                    System.out.println("Mahasiswa ke-"+i+" lulus! ");
                 }
                 
             }
