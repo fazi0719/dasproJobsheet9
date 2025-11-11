@@ -17,4 +17,5 @@ public class arrayRataNilai1_06 {
         rata2 = total/nilaiMhs.length;
         System.out.println("Rata-rata nilai = "+ rata2);
     }
+    
 }
