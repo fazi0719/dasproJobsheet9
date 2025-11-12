@@ -30,5 +30,8 @@ System.out.println();
 if (hasil != 0){
 System.out.println(" Nilai " +key+ " ketemu, merupakan nilai mahasiswa ke-" + (hasil+1));
 }
+else {
+System.out.println(" nilai yang dicari tidak ketemukan ");
+}
 }
 }
