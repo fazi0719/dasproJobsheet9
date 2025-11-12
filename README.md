@@ -1,4 +1,4 @@
-PERCOBAAN 1
+*PERCOBAAN 1*
 1. Jika isi masing-masing elemen array bil diubah dengan angka 5.0, 12867, 7.5, 2000000. Apa yang terjadi? Mengapa bisa demikian?
 Jawab: Error, karena arry bil dideklarasikan menggunakan tipe data int
 2. Modifikasi kode program di atas dengan melakukan inisialisasi elemen array sekaligus pada saat deklarasi array.
@@ -20,7 +20,8 @@ Jawab: Output masih sama dengan percobaan sebelumnya,Loop akan dimulai dari inde
 4.  Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran dari program? Mengapa demikian?
 Jawab: Program akan mencetak 5, 13,-7, 17, lalu berhenti dan menampilkan pesan eror di atas.Eror ini bisa terjadi karena array bil hanya memiliki 4 elemen sedangkan di statement perulangan dipaksa untuk berjalan hingga nilai i mencapai 4.
 
-PERCOBAAN 2
+
+*PERCOBAAN 2*
 1. Ubah statement pada langkah nomor 5 menjadi seperti berikut ini:
 Jalankan program. Apakah terjadi perubahan? Mengapa demikian?
 Jawab: Tidak terjadi perubahan, karena kedua kondisi (i < 10 dan i < nilaiAkhir.length) memiliki nilai yang sama, sehingga program tetap meminta input untuk 10 elemen (indeks 0 sampai 9).
@@ -59,7 +60,7 @@ public static void main(String[] args) {
         }
     }
 
-PERCOBAAN 3
+*PERCOBAAN 3*
 1. Modifikasi kode program pada praktikum percobaan 3 di atas (ArrayRataNilaiXX.java)
 agar program dapat menampilkan banyaknya mahasiswa yang lulus, yaitu mahasiswa
 yang memiliki lebih besar dari 70 (>70).
@@ -138,7 +139,7 @@ System.out.println("Rata rata nilai mahasiswa yang tidak lulus : " +rata2TidakLu
 }
 }
 
-PERCOBAAN 4
+*PERCOBAAN 4*
 1. Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di
 atas.
 Jawab: Statement break digunakan untuk menghentikan perulangan secara langsung, walaupun kondisi perulangan for belum selesai. Jadi jika nilai yang dicari (key) sudah ditemukan  di dalam array (arrNilai[i]), maka program akan menyimpan posisi indeksnya ke variabel hasil dan langsung keluar dari perulangan for (tidak melanjutkan pengecekan ke elemen berikutnya).
