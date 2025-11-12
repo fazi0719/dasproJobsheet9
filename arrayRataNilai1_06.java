@@ -1,11 +1,11 @@
   import java.util.Scanner;
-public class ArrayRataNilai06 {
-  
-    //
-    public static void main(String[] args) {
+public class arrayRataNilai1_06 {
+    
+public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int [] nilaiMhs = new int [10];
+        int totalLulus = 0,jumlahLulus = 0 ;
         double total = 0, rata2;
 
         for (int i =0; i <nilaiMhs.length; i++){
@@ -15,9 +15,14 @@ public class ArrayRataNilai06 {
         }
         for (int i = 0; i < nilaiMhs.length; i++){
             total += nilaiMhs[i];
+        if (nilaiMhs[i] >70) {
+            totalLulus += nilaiMhs[i];
+            jumlahLulus++;
+
         }
+    }
         rata2 = total/nilaiMhs.length;
         System.out.println("Rata-rata nilai = "+ rata2);
-    } 
+        System.out.println("Jumlah mahasiswa yang lulus = "+ jumlahLulus);
+    }
 }
-
