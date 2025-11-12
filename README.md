@@ -15,4 +15,38 @@ Jawab: Tidak terjadi perubahan, karena kedua kondisi (i < 10 dan i < nilaiAkhir.
 Jawab: Untuk memastikan program mengakses setiap elemen array, mulai dari indeks 0 hingga indeks terakhir yang valid (0-9), dan tidak pernah mencoba mengambil data dari kotak yang sudah tidak ada (indeks 10 atau lebih), untuk mencegah error program.
 3. Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70):
 Jalankan program dan jelaskan alur program!
-Jawab: 
+Jawab: 1. int[] nilaiAkhir = new int[10];
+        Membuat array nilaiAkhir dengan kapasitas 10 elemen bertipe integer.
+       2. Pengecekan Kondisi: Di dalam loop, terdapat statement if (nilaiAkhir[i] > 70).Pada setiap iterasi, program akan memeriksa     apakah nilai yang disimpan pada indeks i (yaitu nilaiAkhir[i]) lebih besar dari 70. 
+       3. Jika nilaiAkhir[i] > 70, maka ditampilkan pesan "Mahasiswa ke-i lulus!". Jika tidak (≤70), maka tidak ada pesan yang ditampilkan untuk mahasiswa tersebut.       
+4. Modifikasi program agar menampilkan status kelulusan semua mahasiswa berdasarkan
+nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus,
+seperti ilustrasi output berikut:
+Jawab: import java.util.Scanner;
+public class array_nilaiModif06 {
+
+public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+
+        int [] nilaiAkhir = new int [10];
+
+        for (int i = 0; i < nilaiAkhir.length; i++){
+            System.out.print("Masukkan nilai akhir ke- "+i+" : ");
+            nilaiAkhir [i] = sc.nextInt();
+        }
+
+            for (int i =0; i < nilaiAkhir.length; i++){
+                if (nilaiAkhir[i] > 70){
+                    System.out.println("Nilai akhri ke-"+i+" lulus! ");
+                }
+                else{
+                    System.out.println("Nilai akhri ke-"+i+" Tidak lulus! ");
+            }
+            }
+        }
+    }
+
+    PERCOBAAN 4
+    1. Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di atas.
+    jawab: 
+    
